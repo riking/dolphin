@@ -271,4 +271,8 @@ Summary:
 
 # <a name="android-and-java"></a>Android and Java
 
-The Android project is currently written in Java. If you are using Android Studio to contribute, you can import the project's code style from `code-style-java.jar`, located in `[Dolphin Root]/Source/Android`. Please organize imports before committing.
+The Android project is currently written in Java. If you are using Android Studio to contribute, you must import the project's code style from `code-style-java.jar` before starting, located in `[Dolphin Root]/Source/Android`. Please organize imports before committing.
+
+Android code style is currently not automatically checked, so make sure to reformat before submitting your code.
+
+Before making changes to the C++ code from Android Studio, make sure to install the `clang-format` plugin "ClangFormatIJ" from the settings menu.
